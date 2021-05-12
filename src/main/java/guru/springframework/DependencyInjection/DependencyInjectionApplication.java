@@ -19,6 +19,7 @@ public class DependencyInjectionApplication {
 
 		String greeting = myController.sayHello();
 
+		System.out.println("-------- Primary Bean");
 		System.out.println(greeting);
 
 		System.out.println("-------- Property");
